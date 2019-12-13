@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Piraeus.StringBuilder.Construction", "R5T.Piraeus.StringBuilder.Construction\R5T.Piraeus.StringBuilder.Construction.csproj", "{3C2A527D-5960-4B95-9F1E-025725C092BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Piraeus.StringBuilder.Construction", "R5T.Piraeus.StringBuilder.Construction\R5T.Piraeus.StringBuilder.Construction.csproj", "{3C2A527D-5960-4B95-9F1E-025725C092BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Piraeus.StringBuilder", "R5T.Piraeus.StringBuilder\R5T.Piraeus.StringBuilder.csproj", "{0B95AF65-650C-41E7-83F1-B5A5BC8E6D0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Piraeus.StringBuilder", "R5T.Piraeus.StringBuilder\R5T.Piraeus.StringBuilder.csproj", "{0B95AF65-650C-41E7-83F1-B5A5BC8E6D0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Piraeus.StringBuilder.Testing", "R5T.Piraeus.StringBuilder.Testing\R5T.Piraeus.StringBuilder.Testing.csproj", "{D71FDAB8-A8F3-40B3-8F6B-1654E44DE7DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Piraeus.StringBuilder.Testing", "R5T.Piraeus.StringBuilder.Testing\R5T.Piraeus.StringBuilder.Testing.csproj", "{D71FDAB8-A8F3-40B3-8F6B-1654E44DE7DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{9ABEA8B0-DCCD-4C75-8B8D-806EAF705F5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Piraeus", "..\..\R5T.Piraeus\source\R5T.Piraeus\R5T.Piraeus.csproj", "{5EFB50A3-4C2B-4792-B3B3-3FE9B3CF0B52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3C2A527D-5960-4B95-9F1E-025725C092BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +59,26 @@ Global
 		{D71FDAB8-A8F3-40B3-8F6B-1654E44DE7DB}.Release|x64.Build.0 = Release|Any CPU
 		{D71FDAB8-A8F3-40B3-8F6B-1654E44DE7DB}.Release|x86.ActiveCfg = Release|Any CPU
 		{D71FDAB8-A8F3-40B3-8F6B-1654E44DE7DB}.Release|x86.Build.0 = Release|Any CPU
+		{5EFB50A3-4C2B-4792-B3B3-3FE9B3CF0B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EFB50A3-4C2B-4792-B3B3-3FE9B3CF0B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EFB50A3-4C2B-4792-B3B3-3FE9B3CF0B52}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5EFB50A3-4C2B-4792-B3B3-3FE9B3CF0B52}.Debug|x64.Build.0 = Debug|Any CPU
+		{5EFB50A3-4C2B-4792-B3B3-3FE9B3CF0B52}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5EFB50A3-4C2B-4792-B3B3-3FE9B3CF0B52}.Debug|x86.Build.0 = Debug|Any CPU
+		{5EFB50A3-4C2B-4792-B3B3-3FE9B3CF0B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EFB50A3-4C2B-4792-B3B3-3FE9B3CF0B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EFB50A3-4C2B-4792-B3B3-3FE9B3CF0B52}.Release|x64.ActiveCfg = Release|Any CPU
+		{5EFB50A3-4C2B-4792-B3B3-3FE9B3CF0B52}.Release|x64.Build.0 = Release|Any CPU
+		{5EFB50A3-4C2B-4792-B3B3-3FE9B3CF0B52}.Release|x86.ActiveCfg = Release|Any CPU
+		{5EFB50A3-4C2B-4792-B3B3-3FE9B3CF0B52}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EFB50A3-4C2B-4792-B3B3-3FE9B3CF0B52} = {9ABEA8B0-DCCD-4C75-8B8D-806EAF705F5F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {858C8678-4A2E-4B1B-A13C-54095F4B871B}
 	EndGlobalSection
 EndGlobal
