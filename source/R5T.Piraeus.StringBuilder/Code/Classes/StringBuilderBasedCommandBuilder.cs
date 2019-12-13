@@ -22,7 +22,7 @@ namespace R5T.Piraeus.StringBuilder
         {
             var appendix = $"{token}{this.TokenSeparator}";
 
-            this.StringBuilder.Append(token);
+            this.StringBuilder.Append(appendix);
         }
 
         public string BuildCommand()
