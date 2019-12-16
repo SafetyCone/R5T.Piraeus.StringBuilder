@@ -18,11 +18,13 @@ namespace R5T.Piraeus.StringBuilder
             this.TokenSeparator = tokenSeparator;
         }
 
-        public void Append(string token)
+        public ICommandBuilder Append(string token)
         {
             var appendix = $"{token}{this.TokenSeparator}";
 
             this.StringBuilder.Append(appendix);
+
+            return this;
         }
 
         public string BuildCommand()
